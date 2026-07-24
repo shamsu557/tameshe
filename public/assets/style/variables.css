@@ -1,0 +1,74 @@
+/* =========================================================
+   TAMESHE GLOBAL NIGERIA — DESIGN TOKENS
+   ========================================================= */
+:root {
+  /* Brand palette */
+  --color-primary: #0F4C5C;
+  --color-primary-dark: #0A363F;
+  --color-primary-light: #1B6B7E;
+  --color-secondary: #2C7A7B;
+  --color-accent: #D69E2E;
+  --color-accent-dark: #B7831E;
+  --color-bg: #F8F6F2;
+  --color-dark: #1F2937;
+  --color-white: #FFFFFF;
+  --color-text: #374151;
+  --color-muted: #6B7280;
+  --color-success: #22C55E;
+
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+  --gradient-accent: linear-gradient(135deg, var(--color-accent) 0%, #F0C56B 100%);
+  --gradient-overlay: linear-gradient(180deg, rgba(15,76,92,0.15) 0%, rgba(15,76,92,0.85) 100%);
+  --gradient-hero: linear-gradient(120deg, rgba(15,76,92,0.92) 0%, rgba(44,122,123,0.78) 55%, rgba(214,158,46,0.35) 100%);
+
+  /* Typography */
+  --font-heading: 'Merriweather', Georgia, serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-button: 'Inter', sans-serif;
+
+  --fs-xs: clamp(0.75rem, 0.72rem + 0.15vw, 0.85rem);
+  --fs-sm: clamp(0.875rem, 0.83rem + 0.2vw, 1rem);
+  --fs-base: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
+  --fs-lg: clamp(1.125rem, 1.05rem + 0.35vw, 1.35rem);
+  --fs-xl: clamp(1.35rem, 1.2rem + 0.6vw, 1.75rem);
+  --fs-2xl: clamp(1.75rem, 1.5rem + 1vw, 2.5rem);
+  --fs-3xl: clamp(2.25rem, 1.8rem + 1.8vw, 3.5rem);
+  --fs-4xl: clamp(2.75rem, 2.1rem + 2.8vw, 4.75rem);
+
+  /* Spacing scale */
+  --space-3xs: clamp(0.25rem, 0.23rem + 0.1vw, 0.35rem);
+  --space-2xs: clamp(0.5rem, 0.45rem + 0.2vw, 0.65rem);
+  --space-xs: clamp(0.75rem, 0.68rem + 0.3vw, 1rem);
+  --space-sm: clamp(1rem, 0.9rem + 0.4vw, 1.35rem);
+  --space-md: clamp(1.5rem, 1.3rem + 0.8vw, 2.25rem);
+  --space-lg: clamp(2.25rem, 1.9rem + 1.4vw, 3.5rem);
+  --space-xl: clamp(3.25rem, 2.7rem + 2.2vw, 5.5rem);
+  --space-2xl: clamp(4.5rem, 3.6rem + 3.6vw, 8rem);
+
+  /* Layout */
+  --container-max: 1280px;
+  --container-pad: clamp(1.25rem, 4vw, 3rem);
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 28px;
+  --radius-pill: 999px;
+
+  /* Shadows */
+  --shadow-soft: 0 4px 20px rgba(15, 76, 92, 0.08);
+  --shadow-medium: 0 12px 40px rgba(15, 76, 92, 0.14);
+  --shadow-strong: 0 24px 60px rgba(15, 76, 92, 0.22);
+  --shadow-gold: 0 8px 30px rgba(214, 158, 46, 0.28);
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-fast: 0.2s var(--ease-out);
+  --transition-base: 0.4s var(--ease-out);
+  --transition-slow: 0.7s var(--ease-out);
+
+  /* Z-index scale */
+  --z-nav: 1000;
+  --z-overlay: 1100;
+  --z-modal: 1200;
+  --z-toast: 1300;
+}

@@ -1,0 +1,41 @@
+/* =========================================================
+   TAMESHE GLOBAL NIGERIA — UTILITIES
+   ========================================================= */
+
+.u-text-center { text-align: center; }
+.u-text-left { text-align: left; }
+.u-flex { display: flex; }
+.u-flex-col { display: flex; flex-direction: column; }
+.u-items-center { align-items: center; }
+.u-justify-between { justify-content: space-between; }
+.u-justify-center { justify-content: center; }
+.u-gap-sm { gap: var(--space-sm); }
+.u-gap-md { gap: var(--space-md); }
+.u-mt-0 { margin-top: 0; }
+.u-mb-0 { margin-bottom: 0; }
+.u-mt-lg { margin-top: var(--space-lg); }
+.u-mb-lg { margin-bottom: var(--space-lg); }
+.u-full-width { width: 100%; }
+.u-relative { position: relative; }
+.u-rounded { border-radius: var(--radius-md); }
+.u-shadow { box-shadow: var(--shadow-soft); }
+.u-color-accent { color: var(--color-accent); }
+.u-color-primary { color: var(--color-primary); }
+.u-color-muted { color: var(--color-muted); }
+.u-bg-white { background: var(--color-white); }
+.u-hidden { display: none !important; }
+
+.split { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-xl); align-items: center; }
+.split__media img { border-radius: var(--radius-lg); box-shadow: var(--shadow-medium); }
+.split__media { position: relative; }
+.split__media-accent {
+  position: absolute; bottom: -20px; left: -20px; width: 55%; aspect-ratio: 1;
+  background: var(--gradient-accent); border-radius: var(--radius-lg); z-index: -1;
+}
+
+.sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;
+}
+
+@media (max-width: 992px) { .split { grid-template-columns: 1fr; } }
