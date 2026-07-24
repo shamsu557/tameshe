@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /public/assets/script/
+Sitemap: https://www.tameshe.com.ng/sitemap.xml
